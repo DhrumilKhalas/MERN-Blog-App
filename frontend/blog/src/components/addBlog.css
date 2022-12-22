@@ -1,0 +1,21 @@
+.addblogbtn{
+    background-color:#0071c2;
+    color:antiquewhite;
+
+} 
+
+@media only screen and (min-width:441px) and (max-width:506px){
+    .postyourblogheading{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:328px) and (max-width:440px){
+    .postyourblogheading{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:299px) and (max-width:327px){
+    .postyourblogheading{
+        font-size: 25px;
+    }
+}

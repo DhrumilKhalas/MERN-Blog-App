@@ -1,0 +1,54 @@
+.errorinblog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+}
+.errorinbloginner {
+  height: 400px;
+  width: 500px;
+}
+.errorbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.goback {
+  background-color: #f15100;
+  color: antiquewhite;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 140px;
+  cursor: pointer;
+}
+.gohome {
+  background-color: #f15100;
+  color: antiquewhite;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 140px;
+  cursor: pointer; 
+}
+@media only screen and (min-width:299px) and (max-width:410px){
+.errorinbloginner{
+width: 250px;
+height: 300px;
+}
+.goback,.gohome{
+  font-size: 11px;
+  height: max-content;
+  width: max-content;
+  padding:7px 5px;
+  cursor:pointer;
+  border-radius: 3px;
+}
+.errorbtn{
+  display: flex;
+  gap:8px;
+}
+
+}

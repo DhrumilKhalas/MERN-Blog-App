@@ -1,0 +1,214 @@
+.navbar{
+    position:"sticky";
+    background:"linear-gradient(90deg, rgba(2,0,36,0.9528186274509804) 0%, rgba(121,9,79,1) 80%, rgba(25,104,120,1) 100%)";
+    background-color: yellowgreen;
+}
+.logoinner{
+    cursor:"pointer";
+    text-decoration: none;
+    color:"white";
+} 
+.logoinnerinner{
+    color:antiquewhite;
+    font-size: 20px;
+}
+.spaninner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allblogsinnavinner{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.myblogsindivinner{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.addblogindivinner{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.headerblogsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    gap: 20px;
+}
+.logoutbtndivinner{
+    font-size: 16px;
+        padding: 7px 12px;
+        border-radius: 3px;
+        border: none;
+        background-color:#0071c2;
+        color:antiquewhite;
+        cursor: pointer;
+}
+
+@media only screen and (max-width:299px){
+    .navbar{
+        background-color:black;
+    }
+    .withoutloginbtninner{
+        font-size: 10px;
+        padding: 7px;
+        border-radius: 3px;
+        border: none;
+        background-color:#0071c2;
+        color:antiquewhite;
+        cursor: pointer;
+    }
+    .logoinnerinner{
+        font-size: 14px;
+       }
+        .allblogsinnavinner{
+            font-size: 10px;
+        }
+        .myblogsindivinner{
+            font-size: 10px;
+        }
+        .addblogindivinner{
+            font-size: 10px;
+        }
+        .logoutbtndivinner{
+            font-size: 12px;
+            padding:5px 7px;
+        }
+        .headerblogsdiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            gap: 5px;
+        }
+}
+@media only screen and (min-width:300px) and (max-width:518px){
+    .navbar{
+        background-color: black;
+    }
+    .withoutloginbtn{
+        display: flex; 
+        /* width: 60%; */
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .withoutloginbtninner{
+        font-size: 12px;
+        padding: 7px;
+        border-radius: 3px;
+        border: none;
+        background-color:#0071c2;
+        color:antiquewhite;
+        cursor: pointer;
+    }
+     .headerblogsdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        gap: 5px;
+    }
+   .logoinnerinner{
+    font-size: 14px;
+   }
+    .allblogsinnavinner{
+        font-size: 10px;
+    }
+    .myblogsindivinner{
+        font-size: 10px;
+    }
+    .addblogindivinner{
+        font-size: 10px;
+    } 
+     .logoutbtndivinner{
+        font-size: 12px;
+        padding:5px 7px;
+    } 
+    
+}
+@media only screen and (min-width:519px) and (max-width:640px){
+    .navbar{
+        background-color: black;
+    }
+    .withoutloginbtn{
+        display: flex;
+        /* width: 60%; */
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .withoutloginbtninner{
+        font-size: 12px;
+        padding: 7px;
+        border-radius: 3px;
+        border: none;
+        background-color:#0071c2;
+        color:antiquewhite;
+        cursor: pointer;
+    }
+     /* .headerblogsdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        gap: 5px;
+    }
+   .logoinnerinner{
+    font-size: 14px;
+   }
+    .allblogsinnavinner{
+        font-size: 10px;
+    }
+    .myblogsindivinner{
+        font-size: 10px;
+    }
+    .addblogindivinner{
+        font-size: 10px;
+    } */
+     /* .logoutbtndivinner{
+        font-size: 12px;
+        padding:5px 7px;
+    }  */
+}
+@media only screen and (min-width:641px) and (max-width:1007px){
+
+    .navbar{
+        background-color: black;
+    }
+    .logoinnerinner{
+        font-size: 28px;
+    }
+    .withoutloginbtninner{
+        font-size: 14px;
+        padding: 8px;
+        border-radius: 3px;
+        border: none;
+        background-color:#0071c2;
+        color:antiquewhite;
+        cursor: pointer;
+    }
+   
+}
+@media only screen and (min-width:1008px){
+
+    .navbar{
+        background-color: black;
+    }
+    .logoinnerinner{
+        font-size: 34px;
+    }
+    .withoutloginbtninner{
+        font-size: 16px;
+        padding: 8px;
+        border-radius: 3px;
+        border: none;
+        background-color:#0071c2;
+        color:antiquewhite;
+        cursor: pointer;
+    }
+
+}
+
+    

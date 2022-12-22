@@ -1,0 +1,19 @@
+.updateblogbtn{
+    background-color:#0071c2;
+    color:antiquewhite;
+
+} 
+.updateblogheading{
+font-size: 40px;
+} 
+
+@media only screen and (min-width:299px) and (max-width:400px){
+    .updateblogheading{
+        font-size: 22px;
+        }
+}
+@media only screen and (min-width:401px) and (max-width:550px){
+    .updateblogheading{
+        font-size: 32px;
+        }
+}

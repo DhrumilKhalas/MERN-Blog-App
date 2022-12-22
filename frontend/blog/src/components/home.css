@@ -1,0 +1,81 @@
+.homeinginner{
+    width: 80%; 
+    height: 250px; 
+}
+@media only screen and (max-width:299px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        gap: 30px;
+    } 
+    .homeinginner{
+        width: 80%; 
+        height: 100px;
+    }
+    .parasignuporlogin{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:640px){
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
+        gap: 30px;
+    } 
+    .homeinginner{
+        width: 80%; 
+        height: 120px;
+    }
+    .parasignuporlogin{
+        font-size: 18px;
+    }
+
+}
+@media only screen and (min-width:641px) and (max-width:1007px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        gap: 50px;
+    }
+    .homeinginner{
+        width: 80%; 
+        height: 280px;
+    }
+    .parasignuporlogin{
+        font-size: 28px;
+    }
+
+}
+@media only screen and (min-width:1008px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        gap: 50px; 
+    }
+    .homeinginner{
+        width: 80%; 
+        height: 280px;
+    }
+    .parasignuporlogin{
+        font-size: 28px;
+    }
+}
+    
+    
+    
+
+
+

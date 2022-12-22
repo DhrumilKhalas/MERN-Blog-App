@@ -1,0 +1,15 @@
+.bloginblogs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media only screen and (min-width:299px) and (max-width:399px){
+.notlogin{
+  font-size: 10px;
+}
+
+
+}
+
